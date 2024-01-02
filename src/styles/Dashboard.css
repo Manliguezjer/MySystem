@@ -1,0 +1,106 @@
+/* dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Style for the heading of the main content */
+  .main-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the ticket information */
+  .ticket-info {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the ticket details */
+  .ticket-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style for the ticket data */
+  .ticket-data {
+    flex-grow: 1;
+  }
+  
+  /* Style for the button */
+  .logout-button {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style for the statistics section */
+  .statistics-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each statistic box */
+  .statistic-box {
+    flex-grow: 1;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the heading of each statistic box */
+  .statistic-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the value of each statistic */
+  .statistic-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style for the revenue box */
+  .revenue-box {
+    background-color: #5bc0de;
+    color: #fff;
+  }
+  
+  /* Style for the reservations box */
+  .reservations-box {
+    background-color: #5cb85c;
+    color: #fff;
+  }
+  
